@@ -25,17 +25,15 @@ class SpotifyClient:
         """
 
         url = f"{self.base_url}/playlists/{playlist_id}/tracks"
-
         tracks = []
 
         while url:
-            response = requests.get(url, headers=self.headers)
 
+            response = requests.get(url, headers=self.headers)
             if response.status_code != 200:
                 raise Exception(f"Erro ao buscar playlist: {response.text}")
             
             data = response.json
-
             for item in data:
                 track = item["track"]
 

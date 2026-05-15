@@ -22,9 +22,7 @@ def get_acess_token():
         raise Exception("CLIENT_ID ou CLIENT_SECRET nãoo configurados no .env")
     
     auth_str = f"{CLIENT_ID}:{CLIENT_SECRET}"
-
     auth_bytes = auth_str.encode("utf-8")
-
     auth_b64 = base64.b64encode(auth_bytes).decode("utf-8")
 
     headers = {
