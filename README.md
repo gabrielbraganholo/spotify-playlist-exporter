@@ -1,4 +1,4 @@
-# 🎵 Spotify Playlist Export Sloan
+# 🎵 Spotify Playlist Export
 
 Aplicação em Python que acessa uma playlist do Spotify e exporta todas as músicas para um arquivo `.csv`.
 
