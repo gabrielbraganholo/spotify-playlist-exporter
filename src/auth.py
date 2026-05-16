@@ -24,7 +24,7 @@ def get_acess_token():
 
     if not CLIENT_ID or not CLIENT_SECRET:
         raise Exception("CLIENT_ID ou CLIENT_SECRET nãoo configurados no .env")
-
+    
     scope = "playlist-read-private"
 
     params = {

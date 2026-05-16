@@ -33,8 +33,8 @@ class SpotifyClient:
             if response.status_code != 200:
                 raise Exception(f"Erro ao buscar playlist: {response.text}")
             
-            data = response.json
-            for item in data:
+            data = response.json()
+            for item in data["items"]:
                 track = item["track"]
 
                 if track is None:
