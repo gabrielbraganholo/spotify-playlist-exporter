@@ -49,3 +49,4 @@ class SpotifyClient:
             url = data.get("next")
 
         return tracks
+    
