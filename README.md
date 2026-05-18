@@ -1,4 +1,4 @@
-# 🎵 Spotify Playlist Export
+# 🎵 Spotify Playlist Exporter
 
 Aplicação em Python que acessa uma playlist do Spotify e exporta todas as músicas para um arquivo `.csv`.
 
@@ -129,4 +129,4 @@ Numb,Linkin Park,2025-05-10T14:32:11Z
 
 ## ⭐ Curta o projeto
 
-Se curtir o projeto, deixe uma estrela no repositório! 🌟
+Se curtir o projeto, deixe uma estrela no repositório!
